@@ -1,13 +1,14 @@
 {% extends 'base.html' %}
+
 {% block content %}
 <h1>Works List📝</h1>
 
-<form method="POST" action="{{ url_for('add') }}">
+<form id="task-form" method="POST" action="{{ url_for('add') }}">
     <input type="text" name="task" placeholder="New Work" required>
-    <button type="submit" translate="no">Add..</button>
+    <button type="submit" translate="no">Add</button>
 </form>
 
-<ul>
+<ul id="task-list">
     {% for task in tasks %}
     <li>
         {{ task }}

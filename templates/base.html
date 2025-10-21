@@ -2,12 +2,13 @@
 <html lang="en" translate="no">
 <head>
     <meta charset="UTF-8">
-    <title>Works list</title>
+    <title>Works List</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
     <div class="container">
         {% block content %}{% endblock %}
     </div>
+    <script src="{{ url_for('static', filename='main.js') }}" defer></script>
 </body>
 </html>
