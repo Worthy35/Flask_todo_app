@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Works List📝</h1>
+
+<form method="POST" action="{{ url_for('add') }}">
+    <input type="text" name="task" placeholder="کار جدید..." required>
+    <button type="submit">افزودن</button>
+</form>
+
+<ul>
+    {% for task in tasks %}
+    <li>
+        {{ task }}
+        <a href="{{ url_for('delete', index=loop.index0) }}">❌</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
