@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac562ca-cc67-4ed0-adbc-809907142836" name="Changes" comment="edit index text">
+    <list default="true" id="7ac562ca-cc67-4ed0-adbc-809907142836" name="Changes" comment="change lang">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
       <updated>1760962534807</updated>
       <workItem from="1760962535859" duration="787000" />
       <workItem from="1761075966386" duration="3709000" />
-      <workItem from="1761079728895" duration="777000" />
+      <workItem from="1761079728895" duration="1363000" />
     </task>
     <task id="LOCAL‎−۰۰۰۰۱" summary="Initial commit with README and project setup">
       <option name="closed" value="true" />
@@ -115,7 +116,14 @@
       <option name="presentableId" value="LOCAL‎−۰۰۰۰۲" />
       <updated>1761079346783</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎−۰۰۰۰۳" summary="change lang">
+      <option name="closed" value="true" />
+      <created>1761080523165</created>
+      <option name="number" value="LOCAL‎−۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎−۰۰۰۰۳" />
+      <updated>1761080523165</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,9 +132,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit with README and project setup" />
     <MESSAGE value="edit index text" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit index text" />
+    <MESSAGE value="change lang" />
+    <option name="LAST_COMMIT_MESSAGE" value="change lang" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FlaskProject$FlaskProject.coverage" NAME="FlaskProject Coverage Results" MODIFIED="1761080442888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/FlaskProject$FlaskProject.coverage" NAME="FlaskProject Coverage Results" MODIFIED="1761080586670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
