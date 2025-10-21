@@ -10,12 +10,6 @@ You can add, complete, and delete tasks — all data stored locally using SQLite
 
 ---
 
-## 🚀 Demo
-*(Insert your app screenshot or a GIF here)*  
-![App Demo](https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif)
-
----
-
 ## ⚙️ Features
 ✅ Add new tasks  
 ✅ Mark tasks as completed  
