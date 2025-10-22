@@ -1,18 +1,18 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>Works List📝</h1>
+<h1>Works List 📝</h1>
 
-<form id="task-form" method="POST" action="{{ url_for('add') }}">
+<form id="task-form">
     <input type="text" name="task" placeholder="New Work" required>
-    <button type="submit" translate="no">Add</button>
+    <button type="submit">Add</button>
 </form>
 
 <ul id="task-list">
     {% for task in tasks %}
-    <li>
+    <li data-index="{{ loop.index0 }}">
         {{ task }}
-        <a href="{{ url_for('delete', index=loop.index0) }}">❌</a>
+        <button class="delete-btn">❌</button>
     </li>
     {% endfor %}
 </ul>
