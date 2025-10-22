@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const input = form.querySelector("input[name='task']");
 
     form.addEventListener("submit", function() {
-        // پاک کردن سریع فیلد بعد از submit
+        //Delete After submit
         setTimeout(() => { input.value = ""; }, 100);
     });
 });
