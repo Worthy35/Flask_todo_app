@@ -15,8 +15,7 @@ def add():
     task = data.get('task', '').strip()
     if task:
         tasks.append(task)
-        return jsonify({'success': True, 'task':
-task, 'index': len(tasks) - 1})
+        return jsonify({'success': True, 'task': task, 'index': len(tasks) - 1})
     return jsonify({'success': False, 'error': 'Task cannot be empty'}), 400
 
 @app.route('/delete/<int:index>', methods=['DELETE'])
